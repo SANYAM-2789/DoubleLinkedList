@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bus_ticket.css"> -->
+    <style>
+        main{
+            width: 100%;
+        }
+        .m{
+            background-image: url(https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg);
+            /* background-color: red; */
+            margin: 20vh 0vw;
+            height: 55vh;
+        }
+        .m1 p{
+            padding: 5vh 0vh 0vh 0vh;
+            /* background-color: red; */
+            text-align: center;
+            font-size: 4vh;
+            font-weight: bolder;
+        }
+        .m2{
+            display: flex;
+            /* border: 1px solid lightgrey; */
+            margin: 2% 16%;
+            border-radius: 17px;
+        }
+        .f1{
+            /* border-radius: 17px; */
+            border: 2px solid lightgrey;
+            padding: 4vh 3vw; 
+            background-color: white;
+        }
+        .mf1{
+            /* border-radius: 17px; */
+            border-top-left-radius: 2vw;
+            border-bottom-left-radius: 2vw;
+            border: 2px solid lightgrey;
+            padding: 4vh 3vw; 
+            background-color: white;
+        }
+        .b1{
+            border-color: solid lightgrey;
+            border-top-right-radius: 2vw;
+            border-bottom-right-radius: 2vw;
+            border: 2px solid lightgrey;
+            padding: 4vh 3vw; 
+            background-color: white;
+            font-weight: bolder;
+            font-size: 1.34vw;
+        }
+        .b1:hover{
+            cursor: pointer;
+            background-color: lightgrey;
+            /* font-size: 1.55vw; */
+        }
+        .f11{
+            display: flex;
+        }
+        .f111 img{
+            padding-right: 2vw;
+            height: 4.5vh;
+            width: 4.5vh;
+        }
+    .f113 img{
+        height: 6vh;
+        padding-right: 2vw;
+    }
+    .f112{
+        margin-top: 1vh;
+        margin-right: 1vh;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #fr2{
+        /* border-radius: 0px; */
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        margin: 0px 0.2vw;
+        width: 7vw;
+    }
+    #fr2:hover{
+        border-color: lightblue;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="m">
+            <div class="m1">
+                <p>HIMACHAL PRADESH'S FIRST BUS TICKET BOOKING SITE !!</p>
+            </div>
+            <div class="m2">
+                <div class="mf1">
+                    <div class="f11">
+                        <div class="f111">
+                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3iJ6oF8jWRq7HEHUHrYKwf0ujkhjHYiTvheXObhI7AJb9ng-2" alt="sorry">
+                        </div>
+                        <div class="f112" id="from">
+                            <label for="from2">From</label>
+                        </div>
+                        <input type="text" id="fr2">
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="f11">
+                        <div class="f111">
+                            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ3iJ6oF8jWRq7HEHUHrYKwf0ujkhjHYiTvheXObhI7AJb9ng-2" alt="sorry">
+                        </div>
+                        <div class="f112">
+                            <label for="to">To</label>
+                        </div>
+                        <br>
+                        <input type="text" id="fr2">
+                    </div>
+                </div>
+                <div class="f1">
+                    <div class="f11">
+                        <div class="f111">
+                            <img src="https://www.citypng.com/public/uploads/small/11640487321kzngzwhl4xjx4fmyj7fpzntijpwi9ubqobum84ysu6zolaibglvy9o07wqaordtxe6cdarnhrofibhfxrvzwwmfkedcylp7x0sn2.png" alt="">
+                        </div>
+                        <div class="f112">
+                            DATE
+                        </div>
+                    </div>
+                </div>
+                <input type="button" class="b1" value="Search Buses">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
